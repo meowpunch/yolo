@@ -2,9 +2,9 @@
 
 window 10 base
 
-1.YOLO
-2.CCTV (Android IP webcam)  
-3.Server (WAMP & python)
+1) YOLO
+2) CCTV (Android IP webcam)  
+3) Server (WAMP & python)
 
 
 
@@ -23,15 +23,15 @@ window 10 base
 7. build darknet.sln
 
 
-rf)
+rf ) 
 https://github.com/AlexeyAB/darknet#yolo-v3-in-other-frameworks
-
 
 
 # 2. CCTV
 
 1. install IP webcam in google store on android.
 2. check IP:8080.
+
 
 # 3. Server
 
@@ -41,6 +41,6 @@ https://github.com/AlexeyAB/darknet#yolo-v3-in-other-frameworks
 3. google map api
 
 
-rf)
+rf ) 
 python web programming: https://opentutorials.org/course/3256
 google map: https://cloud.google.com/maps-platform/?hl=ko
