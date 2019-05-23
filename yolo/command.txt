@@ -1,0 +1,16 @@
+내장 webcam
+cd C:\darknet-master\darknet-master\build\darknet\x64
+darknet.exe detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
+
+cd C:\darknet-master\darknet-master\build\darknet\x64
+darknet.exe detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights -mjpeg_port 8090     // localhost:8090 에 webcam+yolo 나옴
+
+
+
+get_image_from_stream_cpp (cap_cv)   //return image
+image_to_mat(image)  //return mat 혹은 mat_to_image(mat)
+save_mat_jpg(Mat, filename)
+
+
+
+Boost Asio
